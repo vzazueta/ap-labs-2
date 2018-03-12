@@ -50,7 +50,7 @@ canonifyurls = true
   identifier = "bible"
   name = "Bible Studies"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-book\"></i>"
-  url = "/bible"
+  url = "/tags/bible"
 [[menu.main]]
   weight = 5
   identifier = "categories"

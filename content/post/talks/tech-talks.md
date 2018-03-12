@@ -7,7 +7,9 @@ title = "Tech talks"
 
 +++
 
+---
 This page is meant for listing the tech talks I have been sharing on different forums.
+<!--more-->
 
 2015
 ----
