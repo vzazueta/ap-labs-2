@@ -50,7 +50,6 @@ flycheck_*.el
 
 ### Hugo ###
 hugo.exe
-/public/
 
 ### Go ###
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
