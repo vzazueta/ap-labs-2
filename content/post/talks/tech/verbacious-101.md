@@ -1,11 +1,24 @@
-+++
-date = "2017-06-09T00:00:00Z"
-title = "Verbacious 101"
-keywords = ["tech"]
-tags = ["talks","tech"]
-categories = ["posts", "talks","tech"]
+---
+title: Verbacious 101
+date: 2017-06-09
+categories:
+- talks
+- tech-talks
+tags:
+- talks
+- tech
+keywords:
+- javascript
+- hexo
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+metaAlignment: center
+comments: true
 
-+++
+---
 This time I have the opportunity to share some of the lessons learned on my career.
 I went to Zacatecas city for the [2017 CISOL](http://www.cozcyt.gob.mx/cisol/)
 which is an Open Source conference that gathers students and professionals from

@@ -1,12 +1,13 @@
 ---
-title: "Introduccion a 'Un mensaje diario'"
+title: "Introduccion a 'Tesoro Semanal'"
 date: 2018-03-11
 categories:
 - bible
-- daily
+- weekly-treasure
 - spanish
 tags:
 - bible
+- treasure
 - Timoteo
 keywords:
 - javascript
@@ -20,7 +21,7 @@ metaAlignment: center
 comments: true
 
 ---
-Este es un inicio de algo que quiero emprender. Un mensaje diario de lo que estoy
+Este es un inicio de algo que quiero emprender. Un mensaje semanal de lo que estoy
 aprendiendo al estar estudiando la palabra de Dios. El propósito es compartir lo
 que Dios me permite aprender cada día.
 <!--more-->

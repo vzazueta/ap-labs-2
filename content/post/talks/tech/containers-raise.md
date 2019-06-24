@@ -1,11 +1,24 @@
-+++
-date = "2017-05-15T00:00:00Z"
-title = "Containers raise, why OpenStack needs Kubernetes"
-keywords = ["tech"]
-tags = ["talks","tech"]
-categories = ["posts", "talks","tech"]
+---
+title: Containers raise, why OpenStack needs Kubernetes
+date: 2017-05-15
+categories:
+- talks
+- tech-talks
+tags:
+- talks
+- tech
+keywords:
+- javascript
+- hexo
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+metaAlignment: center
+comments: true
 
-+++
+---
 As member of the [OpenStack GDL](https://www.facebook.com/groups/openstackgdl/) community
 this was the first time I present a topic there.
 

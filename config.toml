@@ -38,19 +38,19 @@ canonifyurls = true
   identifier = "music"
   name = "Music"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-music\"></i>"
-  url = "/music"
+  url = "/categories/music"
 [[menu.main]]
   weight = 3
-  identifier = "talks"
-  name = "Talks"
+  identifier = "tech-talks"
+  name = "Tech Talks"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-microphone\"></i>"
-  url = "/tags/talks"
+  url = "/categories/tech-talks"
 [[menu.main]]
   weight = 4
   identifier = "bible"
   name = "Bible Studies"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-book\"></i>"
-  url = "/tags/bible"
+  url = "/categories/bible"
 [[menu.main]]
   weight = 5
   identifier = "categories"

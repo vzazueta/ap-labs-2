@@ -1,11 +1,24 @@
-+++
-date = "2015-05-22T00:00:00Z"
-title = "OpenStack Introduction"
-keywords = ["tech"]
-tags = ["talks","tech"]
-categories = ["posts", "talks","tech"]
+---
+title: OpenStack Introduction
+date: 2015-05-22
+categories:
+- talks
+- tech-talks
+tags:
+- talks
+- tech
+keywords:
+- javascript
+- hexo
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+metaAlignment: center
+comments: true
 
-+++
+---
 This is talk I gave a Zacatecas City about OpenStack. Basically, this is an introduction that explains
 the origins of Cloud computing, some key cloud concepts and how OpenStack delivers Infrastructure as a Service.
 

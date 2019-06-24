@@ -3,11 +3,11 @@ title: "Who has made man's mouth?"
 date: 2019-02-03
 categories:
 - bible
-- daily
+- weekly-treasure
 - english
 tags:
 - bible
-- daily
+- treasure
 keywords:
 - javascript
 - hexo

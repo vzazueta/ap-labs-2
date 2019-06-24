@@ -1,11 +1,24 @@
-+++
-keywords = ["tech", "talks"]
-tags = ["talks","tech"]
-categories = ["posts", "talks","tech"]
-date = "2017-06-11T00:00:00Z"
-title = "Tech talks"
+---
+title: Tech talks
+date: 2017-06-11
+categories:
+- talks
+- tech-talks
+tags:
+- talks
+- tech
+keywords:
+- javascript
+- hexo
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+metaAlignment: center
+comments: true
 
-+++
+---
 
 ---
 This page is meant for listing the tech talks I have been sharing on different forums.

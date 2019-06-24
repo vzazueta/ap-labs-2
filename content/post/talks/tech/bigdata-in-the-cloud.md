@@ -1,11 +1,24 @@
-+++
-date = "2016-08-26T00:00:00Z"
-title = "Big Data in the Cloud? Yes, you can do it in OpenStack"
-keywords = ["tech"]
-tags = ["talks","tech"]
-categories = ["posts", "talks","tech"]
+---
+date: 2016-08-26
+title: "Big Data in the Cloud? Yes, you can do it in OpenStack"
+categories:
+- talks
+- tech-talks
+tags:
+- talks
+- tech
+keywords:
+- javascript
+- hexo
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+metaAlignment: center
+comments: true
 
-+++
+---
 I had the opportunity to share some of the Big Data approaches that OpenStack is offering with the
 Sahara project. With Sahara, you can deploy Hadoop and Spark clusters inside OpenStack infrastructure.
 

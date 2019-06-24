@@ -1,12 +1,24 @@
-+++
-date = "2017-05-08T00:00:00Z"
-title = "Golang, Python or C/C++, who wins?"
-url = "golang-python-c-who-wins"
-keywords = ["tech"]
-tags = ["talks","tech"]
-categories = ["posts", "talks","tech"]
+---
+title: Golang, Python or C/C++, who wins?
+date: 2017-05-08
+categories:
+- talks
+- tech-talks
+tags:
+- talks
+- tech
+keywords:
+- javascript
+- hexo
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+metaAlignment: center
+comments: true
 
-+++
+---
 This time I had an opportunity for presenting at Ameca, Jalisco. I presented at the [CUVALLES](http://www.valles.udg.mx/) 
 university.
 
