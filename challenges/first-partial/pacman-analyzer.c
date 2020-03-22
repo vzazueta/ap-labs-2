@@ -211,7 +211,7 @@ void analyzeLog(char *logFile, char *report) {
       }
 
       int g;
-      for(g = (lastInstalledIndex+1); p<2048; p++){
+      for(g = (lastInstalledIndex+1); g<2048; g++){
             files[g].name[0] = '\0';
             files[g].installDate[0] = '\0';
             files[g].upgradeDate[0] = '\0';
