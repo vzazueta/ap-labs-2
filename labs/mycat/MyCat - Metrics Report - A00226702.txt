@@ -1,0 +1,12 @@
+MYCAT RESULTS:
+ap-user@ap-labs:~/ap-labs/labs/mycat$ time ./a.out lorem_ipsum.txt
+real    0m0.080s
+user    0m0.011s
+sys     0m0.021s
+
+
+Normal CAT RESULTS:
+ap-user@ap-labs:~/ap-labs/labs/mycat$ time cat lorem_ipsum.txt
+real    0m0.001s
+user    0m0.001s
+sys     0m0.000s
