@@ -64,7 +64,6 @@ void analyzeLog(char *logFile, char *report) {
       }
 
       int lastInstalledIndex = 0;
-      characters = read(fd, buffer, 1);
 
       for(;;)
       {
