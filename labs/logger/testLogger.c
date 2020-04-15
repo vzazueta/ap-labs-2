@@ -9,6 +9,6 @@ int main(int argc, char *argv){
       infof("\nHola %s %s A00%d tu calificacion es: %f", "Victor", "Zazueta", 226702, 99.9999);
       warnf("\n\nHola %s %s A00%d tu calificacion es: %f", "Victor", "Zazueta", 226702, 99.9999);
       errorf("\n\nHola %s %s A00%d tu calificacion es: %f", "Victor", "Zazueta", 226702, 99.9999);
-      panicf("\n\nHola %s %s A00%d tu calificacion es: %f", "Victor", "Zazueta", 226702, 99.9999);
-      printf("\n\n");
+      panicf("\n\nHola %s %s A00%d tu calificacion es: %f\n", "Victor", "Zazueta", 226702, 99.9999);
+	printf("\n\n");
 }

@@ -66,8 +66,9 @@ int panicf(char *format, ...){
 	textcolor(BRIGHT, WHITE, RED);
 	vprintf(format, arg);
       va_end(arg);
+	textcolor(RESET, WHITE, BLACK);		
+	fflush(stdout);
 	raise(SIGABRT);
-	textcolor(RESET, WHITE, BLACK);	
-
+	
 	return 666;
 }
