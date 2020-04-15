@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>	
 #include <stdlib.h>
+#include <signal.h>
 
 #define RESET		0
 #define BRIGHT 		1
@@ -65,6 +66,7 @@ int panicf(char *format, ...){
 	textcolor(BRIGHT, WHITE, RED);
 	vprintf(format, arg);
       va_end(arg);
+	raise(SIGABRT);
 	textcolor(RESET, WHITE, BLACK);	
 
 	return 666;
