@@ -1,12 +1,7 @@
-// Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
-// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-// See page 227.
-
-// Netcat is a simple read/write client for TCP servers.
 package main
 
 import (
+	"fmt"
 	"io"
 	"log"
 	"net"
@@ -15,16 +10,23 @@ import (
 
 //!+
 func main() {
-	conn, err := net.Dial("tcp", "localhost:8000")
+	username := os.Args[2]
+	server := os.Args[4]
+
+	conn, err := net.Dial("tcp", server)
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	done := make(chan struct{})
+	fmt.Fprintln(conn, username)
+
 	go func() {
 		io.Copy(os.Stdout, conn) // NOTE: ignoring errors
 		log.Println("done")
 		done <- struct{}{} // signal the main goroutine
 	}()
+
 	mustCopy(conn, os.Stdin)
 	conn.Close()
 	<-done // wait for background goroutine to finish
@@ -37,3 +39,4 @@ func mustCopy(dst io.Writer, src io.Reader) {
 		log.Fatal(err)
 	}
 }
+
