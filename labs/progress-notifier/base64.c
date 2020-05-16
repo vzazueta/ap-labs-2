@@ -45,6 +45,11 @@ int main(int argc, char **argv){
       signal(SIGUSR1, sigusr1_handler);
       signal(SIGINT, sigint_handler);
 
+      if(argc < 2){
+            errorf("Incorrect format");
+            exit(1);
+      }
+
       instruction = argv[1];
       filename = argv[2];
 
@@ -55,37 +60,28 @@ int main(int argc, char **argv){
             errorf("Error in read()");
             exit(1);
       }
-
+      
       fseek(fileRead, 0, SEEK_END);
       fileSize = ftell(fileRead);
       fseek(fileRead, 0, SEEK_SET);
 
       advanceRate = fileSize/100;
 
-      //printf("\nfileSize: %d\nadvanceRate: %d\n", fileSize, advanceRate);
+      printf("\nfileSize: %d\nadvanceRate: %d\n", fileSize, advanceRate);
 
       if(strcmp("--encode", instruction) == 0){
             fileWrite = fopen("encoded.txt", "w");
-            
-            //kill(pid, SIGUSR1);
-            //sleep(1);
+          
             start++;
             fwrite( base64_encode(input), 1 , MAX_SIZE, fileWrite );
-            
-            //sleep(1);
-            //kill(pid, SIGUSR1);
             
             printf("\n");
 
       } else if(strcmp("--decode", instruction) == 0){
             fileWrite = fopen("decoded.txt", "w");
             
-            //kill(pid, SIGUSR1);
-            //sleep(1);
             start++;
             fwrite( base64_decode(input), 1 , MAX_SIZE, fileWrite );
-            //sleep(1);
-            //kill(pid, SIGUSR1);
 
             printf("\n");
 

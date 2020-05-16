@@ -1,3 +1,5 @@
+include ../../common.mk
+
 base64: base64.c logger.c
 	gcc -c logger.c -o logger.o
 	gcc -c base64.c -o base64.o
