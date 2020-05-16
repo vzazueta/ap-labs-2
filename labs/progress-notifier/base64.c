@@ -67,7 +67,7 @@ int main(int argc, char **argv){
 
       advanceRate = fileSize/100;
 
-      printf("\nfileSize: %d\nadvanceRate: %d\n", fileSize, advanceRate);
+      //printf("\nfileSize: %d\nadvanceRate: %d\n", fileSize, advanceRate);
 
       if(strcmp("--encode", instruction) == 0){
             fileWrite = fopen("encoded.txt", "w");
