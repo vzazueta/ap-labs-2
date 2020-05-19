@@ -1,0 +1,18 @@
+Before:
+	Alloc = 0 MiB
+	Mallocs = 121
+	Frees = 2
+	Current Mallocs = 119
+	HeapAlloc = 0 MiB
+	Sys = 66 MiB
+	InUse = 0
+After:
+	Alloc = 0 MiB
+	Mallocs = 143
+	Frees = 4
+	Current Mallocs = 139
+	HeapAlloc = 0 MiB
+	Sys = 66 MiB
+	InUse = 0
+Total pipes: 100000
+In total time: 49.197974ms
